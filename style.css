@@ -568,18 +568,38 @@ nav {
 
 .nav1 {
   grid-column: 1;
+  transition: transform 1s;
+}
+
+.nav1:hover {
+  transform: scale(1.5);
 }
 
 .nav2 {
   grid-column: 2;
+  transition: transform 1s;
+}
+
+.nav2:hover {
+  transform: scale(1.5);
 }
 
 .nav3 {
   grid-column: 3;
+  transition: transform 1s;
+}
+
+.nav3:hover {
+  transform: scale(1.5);
 }
 
 .nav4 {
   grid-column: 4;
+  transition: transform 1s;
+}
+
+.nav4:hover {
+  transform: scale(1.5);
 }
 
 .navLinks {
