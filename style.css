@@ -496,6 +496,30 @@ body {
   transform: scale(1.5);
 }
 
+.img6 {
+  max-width: 375px;
+  max-height: 400px;
+  transition: transform 1s;
+  box-shadow: 5px 5px 5px #9b9d9f;
+  border-radius: 10px;
+}
+
+.img6:hover {
+  transform: scale(1.5);
+}
+
+.img7 {
+  max-width: 375px;
+  max-height: 400px;
+  transition: transform 1s;
+  box-shadow: 5px 5px 5px #9b9d9f;
+  border-radius: 10px;
+}
+
+.img7:hover {
+  transform: scale(1.5);
+}
+
 .wrapper {
   font-family: "Ubuntu", sans-serif;
 }
@@ -559,7 +583,7 @@ nav {
 @media screen and (max-width: 900px) {
   nav {
     grid-template-columns: 100%;
-    grid-template-rows: auto;
+    grid-template-rows: repeat(4, 1fr);
     grid-gap: 1em;
     animation: 8s fadeInUpBig;
     opacity: 0.8;
