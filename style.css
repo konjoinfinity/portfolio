@@ -228,8 +228,8 @@ body {
   border-radius: 10px;
 }
 
-.img8:hover {
-  transform: scale(1.3);
+.img7:hover {
+  transform: scale(1.5);
 }
 
 .img8 {
@@ -240,8 +240,20 @@ body {
   border-radius: 10px;
 }
 
-.img7:hover {
-  transform: scale(1.5);
+.img8:hover {
+  transform: scale(1.3);
+}
+
+.img9:hover {
+  transform: scale(1.6);
+}
+
+.img9 {
+  max-width: 375px;
+  max-height: 400px;
+  transition: transform 1s;
+  box-shadow: 5px 5px 5px #9b9d9f;
+  border-radius: 10px;
 }
 
 .wrapper {
