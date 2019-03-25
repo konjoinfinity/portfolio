@@ -256,6 +256,18 @@ body {
   border-radius: 10px;
 }
 
+.img10:hover {
+  transform: scale(1.4);
+}
+
+.img10 {
+  max-width: 375px;
+  max-height: 400px;
+  transition: transform 1s;
+  box-shadow: 5px 5px 5px #9b9d9f;
+  border-radius: 10px;
+}
+
 .wrapper {
   font-family: "Ubuntu", sans-serif;
 }
